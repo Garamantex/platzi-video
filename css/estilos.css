@@ -1,0 +1,51 @@
+body {
+    background-color: #43AFE0;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #43AFE0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: auto;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+}
+.header__menu {
+    margin-right: 30px;
+}
+
+.header__menu ul {
+    display: none;
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+    text-align: right;
+    width: 100px;
+    margin: 0px 0px 0px -14px;
+}
+
+.header__menu:hover ul, ul:hover {
+    display: block;
+  }
+
+.header__menu--perfil {
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__menu--perfil img {
+    margin-right: 8px;
+    width: 40px;
+}
