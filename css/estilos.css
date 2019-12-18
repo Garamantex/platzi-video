@@ -1,5 +1,6 @@
 body {
     background-color: #43AFE0;
+    font-family: 'Muli', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -24,6 +25,17 @@ header {
     margin-right: 30px;
 }
 
+.header__menu--perfil {
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__menu--perfil img {
+    margin-right: 8px;
+    width: 40px;
+}
 .header__menu ul {
     display: none;
     list-style: none;
@@ -38,14 +50,15 @@ header {
     display: block;
   }
 
-.header__menu--perfil {
-    margin-right: 8px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+.header__menu li {
+      margin: 10px 0px;
+  }
+
+.header__menu li a {
+    color: white;
+    text-decoration: none;
 }
 
-.header__menu--perfil img {
-    margin-right: 8px;
-    width: 40px;
+.header__menu li a:hover {
+    text-decoration: underline;
 }
